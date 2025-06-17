@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wedding-planner/*": ["libs/*"],
+      "@wedding-planner/types": ["types/src/index.ts"],
+      "@wedding-planner/ui": ["ui/src/index.ts"],
+      "@wedding-planner/utils": ["utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
