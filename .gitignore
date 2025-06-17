@@ -49,3 +49,23 @@ out
 
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
+
+# Node
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+*.env
+
+# Prisma
+apps/*/prisma/dev.db
+apps/*/prisma/.DS_Store
+
+# Nx & Logs
+tmp/
+nx-report.html
+coverage/
+.cache/
+.idea/
